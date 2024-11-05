@@ -38,6 +38,9 @@ document.getElementById('faxDocument').addEventListener('change', function() {
         case 'order':
             textArea.value = "5-YR RUL is not due until the DATE. Please do not schedule it until then.\n\n2LPM via NC Continuous / 60Month Restart\n---------------------------------------------------------------------------------\nPlease have patient sign 60-month letter when completing exchange/restart located in OTL.\n---------------------------------------------------------------------------------\nCLAIM NOTE\n\nRUL MET E1390 INITIAL 05032019\n---------------------------------------------------------------------------------\nCSR, Scheduling\n---------------------------------------------------------------------------------\n\nBL-E1390-5LPM\nBL-K0738\nBL-E1392\nOXY PORTABILITY\nBL-E0443\n\n2LPM Oxygen Via NC At rest\n2LPM Oxygen Via NC with exertion";
             break;
+        case 'template':
+            textArea.value = "What’s needed:\n| Item/s: E1390 &\n| RUL Date:\n| CMN Expiration:\n\n| Doctor call: 0/5\n| GoScripts: 0/2\n| Parachute: 0/2\n| Patient Call: 0/3\n| Faxes sent: 0/5\n\n| Insurance:\n| Policy Number:\n| Checked Eligibility: Yes No\n| DNC/DNF: Yes No\n| GoScripts: Yes No\n| Parachute: Yes No\n\n| Doctor:\n(PECOS)\n| NPI:\n| Phone Number:\n| Fax Number:\n\n| Testing: Initial O2 from DATE, 6MWT - RAAR CODE%, RAEx CODE%, Exertion with 2LPM oxygen CODE%.\n| Usage: 2LPM via NC Continuous/Nocturnal\n| Can SWO be used: Yes No\n\n| Remark/s: We got valid testing. Created CMN - CODE. The provider is enrolled with parachute, created order and sent it through. Retained SB.";
+            break;
         default:
             textArea.value = "";
     }
