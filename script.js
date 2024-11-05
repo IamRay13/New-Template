@@ -41,10 +41,10 @@ document.getElementById('schedulingDocument').addEventListener('change', functio
     const textArea = document.getElementById('schedulingText');
     switch (this.value) {
         case 'medicare':
-            textArea.value = "What's needed: Scheduling/ 60 Month Restart\n| RUL: \n| SWO Expiration: \n| Signed date: \n| Item/s: E1390 & \n| Comment/s:\nWe got valid testing and received signed SWO by CODE. \nInstructed not to log Medicare.\nCreated New Sales Order - CODE.\nNew Pickup/Exchange - CODE.\nSB flipped to Restart Scheduled.";
+            textArea.value = "What's needed: Scheduling/ 60 Month Restart\n| Comment/s: We got valid testing and received signed SWO. Instructed not to log SWO.\nCreated New Sales Order - CODE.\nNew Pickup/Exchange - CODE.\nSB flipped to Restart Scheduled.";
             break;
         case 'nonMedicare':
-            textArea.value = "What's needed: Scheduling/ 60 Month Restart\n| RUL: \n| SWO Expiration: \n| Signed date: \n| Item/s: E1390 & \n| Comment/s:\nWe got valid testing and received signed SWO by CODE. \nLogged CMN.\nCreated New Sales Order - CODE.\nNew Pickup/Exchange - CODE.\nSB flipped to Restart Scheduled.";
+            textArea.value = "What's needed: Scheduling/ 60 Month Restart\n| Comment/s: We got valid testing and received signed CMN. Logged CMN.\nCreated New Sales Order - CODE.\nNew Pickup/Exchange - CODE.\nSB flipped to Restart Scheduled.";
             break;
         default:
             textArea.value = "";
