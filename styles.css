@@ -16,7 +16,7 @@ color: white; /* Ensure text is visible on a black background */
 
 textarea {
 height: 500px;
-width: 200%;      
+width: 100%;      
 margin-top: 10px;      
 background-color: #00000080; /* Make textarea 50% transparent dark black */
 color: white; /* Ensure text is visible in the textarea */      
