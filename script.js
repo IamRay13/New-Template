@@ -17,7 +17,7 @@ document.getElementById('requestType').addEventListener('change', function() {
 document.getElementById('faxDocument').addEventListener('change', function() {
     const textArea = document.getElementById('faxText');
     switch (this.value) {
-            case 'firsttouch':
+            case 'ftouch':
             textArea.value = "This patient is currently being reviewed by the Centralized RUL team.\nIf the patient calls in with any questions please transfer them to (484) 567-0666 or Purecloud call queue MedicareRestarts_adapthealth.\nYou can also email this team, 60monthrestarts@adapthealth.com for a status update.\n\nPatient has had Oxygen equipment for 60 months. If patient elects to not restart all oxygen equipment will need to be picked up and the patient will have to switch providers.\n\n\nAssessment Team Review:\n\nDoes the insurance cap?\n\nTesting:\n\n- RA @ rest\n- RA ambulation\n- Ambulation on O2\n- Nocturnal \n- LPM\n\nDate Testing was completed:\n\nComments:\n\nVERIFY\n\nType of Usage (24hrs/ nocturnal only/ ambulation):\n\nCurrent ordering doctor:\n\nMost recent/upcoming appt date to discuss O2 usage:\n\nSam/Sim Results-\n\nE1390:\n\nPortability:\n\nPap:\n\nFinal Review-\n\nWas a new initial CMN created? Y/N\n\nWas the Clinical tab completed?\n\nWhat is needed?";
             break;
         case 'swo':
