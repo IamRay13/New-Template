@@ -17,7 +17,7 @@ color: white; /* Ensure text is visible on a black background */
 textarea {
 width: 100%;      
 margin-top: 10px;      
-background-color: #333; /* Darker background for textarea */      
+background-color: #00000080; /* Make textarea 50% transparent dark black */
 color: white; /* Ensure text is visible in the textarea */      
 border: 1px solid white; /* Add border to textarea */  
 }
