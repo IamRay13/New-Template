@@ -41,6 +41,13 @@ document.getElementById('faxDocument').addEventListener('change', function() {
         case 'template':
             textArea.value = "What’s needed:\n| Item/s: E1390 &\n| RUL Date:\n| CMN Expiration:\n\n| Doctor call: 0/5\n| GoScripts: 0/2\n| Parachute: 0/2\n| Patient Call: 0/3\n| Faxes sent: 0/5\n\n| Insurance:\n| Policy Number:\n| Checked Eligibility: Yes No\n| DNC/DNF: Yes No\n| GoScripts: Yes No\n| Parachute: Yes No\n\n| Doctor:\n(PECOS)\n| NPI:\n| Phone Number:\n| Fax Number:\n\n| Testing: Initial O2 from DATE, 6MWT - RAAR CODE%, RAEx CODE%, Exertion with 2LPM oxygen CODE%.\n| Usage: 2LPM via NC Continuous/Nocturnal\n| Can SWO be used: Yes No\n\n| Remark/s: We got valid testing. Created CMN - CODE. The provider is enrolled with parachute, created order and sent it through. Retained SB.";
             break;
+        case 'ono':
+            textArea.value = "Good day! Patient is due for 5-year O2 requalification. Requesting a copy of a qualifying Overnight Oximetry Test from any year to be used in requalifying patient. For questions, you may call 484-567-0666. Thank you!\n\n----------------------------------------------------------\nFrom: Tariao, Raymond\nPhone: (484) 567-0666\nFax: (484) 362-1480\n\nPhone: 4845670666\nFax: 4843621480";
+            break;
+        case 'availability':
+            textArea.value = "Hello Good morning, NAME!\n\nI hope this email finds you well.\n\nI would like to inquire if you could assist a patient living at ADDRESS. This patient is due for a 5-year requalification, and we received an order for a POC and would like to verify availability for this patient.\n\nPatient Name:\nPatient ID:\nAddress:\n\nYour prompt attention to this matter would be greatly appreciated. Thank you and have a great day!";
+            break;
+
         default:
             textArea.value = "";
     }
